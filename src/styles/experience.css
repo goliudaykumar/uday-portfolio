@@ -1,0 +1,33 @@
+.timeline {
+  display: grid;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.timeline-card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  border-left: 6px solid #2563eb;
+}
+
+.timeline-card h3 {
+  margin-bottom: 6px;
+}
+
+.company {
+  font-size: 0.9rem;
+  color: #2563eb;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.timeline-card ul {
+  padding-left: 18px;
+}
+
+.timeline-card li {
+  margin-bottom: 8px;
+  color: #444;
+}

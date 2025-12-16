@@ -1,0 +1,21 @@
+.skill-section {
+  margin-bottom: 40px;
+}
+
+.skill-section h3 {
+  margin-bottom: 16px;
+}
+
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-grid span {
+  background: #fff;
+  padding: 10px 16px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  font-size: 0.95rem;
+}
