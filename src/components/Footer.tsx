@@ -16,7 +16,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="www.linkedin.com/in/uday-kumar-goli-60241b305"
+          href="https://www.linkedin.com/in/uday-kumar-goli-60241b305/"
           target="_blank"
           rel="noopener noreferrer"
         >

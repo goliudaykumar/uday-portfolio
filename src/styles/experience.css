@@ -31,3 +31,41 @@
   margin-bottom: 8px;
   color: #444;
 }
+
+
+
+
+/* =======================
+   EXPERIENCE RESPONSIVE
+======================= */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .timeline {
+    gap: 24px;
+  }
+
+  .timeline-card {
+    padding: 22px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 480px) {
+  .timeline {
+    gap: 20px;
+  }
+
+  .timeline-card {
+    padding: 18px;
+    border-left-width: 4px;
+  }
+
+  .timeline-card ul {
+    padding-left: 16px;
+  }
+
+  .timeline-card li {
+    font-size: 0.9rem;
+  }
+}

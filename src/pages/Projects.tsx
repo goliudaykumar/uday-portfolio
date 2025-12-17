@@ -1,81 +1,111 @@
-// Projects.tsx
-import { Link } from "react-router-dom";
 import "../styles/projects.css";
 
 export default function Projects() {
   return (
     <section className="page">
-      <h2>Projects</h2>
+      {/* Section Header */}
+      <h2 className="section-title">Projects</h2>
+      <p className="section-subtitle">
+        Enterprise, government, and real-world applications I designed and
+        developed as a Full Stack Developer
+      </p>
 
       <div className="project-grid">
-        {/* Hostel Management */}
-        <div className="project-card">
+        {/* BIVS */}
+        <div className="project-card highlight">
+          <h3>BIVS – Biometric Identity Verification System</h3>
+          <p className="project-role">Full Stack Developer</p>
+
+          <p className="project-desc">
+            Developed a secure biometric-based identity verification system used
+            for validating customer identities through biometric data and
+            backend verification workflows.
+          </p>
+
+          <p className="project-tech">
+            <strong>Tech:</strong> React.js, Golang, PostgreSQL, REST APIs, JWT, , Apache Superset, Grafana
+          </p>
+        </div>
+
+        {/* POS Onboarding */}
+        <div className="project-card highlight">
+          <h3>POS Onboarding System</h3>
+          <p className="project-role">Full Stack Developer</p>
+
+          <p className="project-desc">
+            Built a telecom onboarding platform for capturing DKYC and EKYC
+            submissions through POS devices, enabling secure customer data
+            validation and workflow processing.
+          </p>
+
+          <p className="project-tech">
+            <strong>Tech:</strong> React.js, Golang, PostgreSQL, JWT, REST APIs
+          </p>
+        </div>
+
+        {/* CSC Portal */}
+        <div className="project-card highlight">
+          <h3>CSC Portal – Verification Officer Dashboard</h3>
+          <p className="project-role">Full Stack Developer</p>
+
+          <p className="project-desc">
+            Developed a role-based CSC portal where verification officers review,
+            validate, accept, or reject DKYC and EKYC submissions with detailed
+            form validation and audit tracking.
+          </p>
+
+          <p className="project-tech">
+            <strong>Tech:</strong> React.js, Golang, PostgreSQL, JWT, RBAC
+          </p>
+        </div>
+
+        {/* IONLEDGER */}
+        <div className="project-card highlight">
+          <h3>IONLEDGER Platform – Battery Passport System</h3>
+          <p className="project-role">Full Stack Developer</p>
+
+          <p className="project-desc">
+            Developed a battery passport platform for EV batteries, displaying
+            complete static and dynamic battery data using a unique Battery
+            Passport ID, enabling traceability and lifecycle monitoring.
+          </p>
+
+          <p className="project-tech">
+            <strong>Tech:</strong> React.js, Golang, PostgreSQL
+          </p>
+        </div>
+
+        {/* AIGS Hostel */}
+        <div className="project-card highlight">
           <h3>AIGS Hostel Management System</h3>
           <p className="project-role">UI Designer & Full Stack Developer</p>
-          <p>
-            Developed a complete hostel management platform to manage residents,
-            payments, visitors, staff, and admin workflows with a clean,
-            card-based dashboard UI.
+
+          <p className="project-desc">
+            Designed and developed a complete hostel management platform to
+            manage residents, payments, visitors, staff, complaints, and admin
+            workflows using a modern card-based dashboard UI.
           </p>
-          <Link to="/case-study">View Case Study →</Link>
+
+          <p className="project-tech">
+            <strong>Tech:</strong> React.js, Golang, PostgreSQL, Docker, AWS
+          </p>
+
+
         </div>
 
-        {/* Digital Interior Design */}
-        <div className="project-card">
-          <h3>Digital Interior Design Web Application</h3>
-          <p className="project-role">Full Stack Developer</p>
-          <p>
-            Built a collaborative platform for interior designers and clients
-            to manage design projects, visualize layouts, and streamline
-            communication.
-          </p>
-          <p>
-            Implemented secure authentication, role-based access (Admin,
-            Designer, Client), and responsive UI.
-          </p>
-          <p>
-            <strong>Tech:</strong> React.js, HTML, CSS, Bootstrap, Node.js,
-            PHP (Admin), MySQL
-          </p>
-        </div>
-
-        {/* BSNL POS */}
-        <div className="project-card">
-          <h3>BSNL POS Onboarding System</h3>
-          <p className="project-role">Full Stack Developer</p>
-          <p>
-            Developed secure telecom onboarding workflows with JWT-based
-            authentication, role-based access, and backend API integration
-            for POS operations.
-          </p>
-        </div>
-
-        {/* Ecommerce */}
-        <div className="project-card">
-          <h3>E-Commerce Website</h3>
-          <p className="project-role">Full Stack Developer</p>
-          <p>
-            Developed a responsive eCommerce platform allowing users to browse
-            products, manage carts, and complete secure checkout processes.
-          </p>
-          <p>
-            Built backend features for user accounts, product management,
-            and order processing.
-          </p>
-        </div>
-
-        {/* WordPress */}
-        <div className="project-card">
+        {/* Freelance / WordPress */}
+        <div className="project-card highlight">
           <h3>Business & Portfolio Websites</h3>
-          <p className="project-role">Freelance / Full Stack Developer</p>
-          <p>
-            Designed and deployed multiple WordPress business and portfolio
-            websites with custom themes, responsive layouts, and CMS-based
-            content management.
+          <p className="project-role">Freelance Full Stack Developer</p>
+
+          <p className="project-desc">
+            Designed and delivered multiple business and portfolio websites with
+            custom WordPress themes, responsive UI, SEO optimization, and
+            performance enhancements.
           </p>
-          <p>
-            Integrated SEO, security, performance optimization plugins, and
-            ensured scalability and maintainability.
+
+          <p className="project-tech">
+            <strong>Tech:</strong> WordPress, PHP, MySQL, SEO Tools
           </p>
         </div>
       </div>

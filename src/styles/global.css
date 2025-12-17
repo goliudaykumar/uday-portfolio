@@ -1,3 +1,27 @@
+:root {
+  /* Brand */
+  --primary: #2563eb;
+  --primary-dark: #1e40af;
+  --accent: #22c55e;
+
+  /* Backgrounds */
+  --bg-main: #f9fafb;
+  --bg-card: #ffffff;
+
+  /* Text */
+  --text-main: #111827;
+  --text-muted: #6b7280;
+
+  /* Borders & Effects */
+  --border-light: #e5e7eb;
+  --radius-lg: 14px;
+  --radius-md: 10px;
+
+  --shadow-sm: 0 10px 25px rgba(0,0,0,0.05);
+  --shadow-md: 0 20px 40px rgba(0,0,0,0.08);
+  --shadow-lg: 0 30px 60px rgba(0,0,0,0.15);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +30,8 @@
 
 body {
   font-family: "Inter", Arial, sans-serif;
-  background-color: #f9fafb;
-  color: #111;
+  background: var(--bg-main);
+  color: var(--text-main);
   line-height: 1.6;
 }
 
@@ -20,4 +44,37 @@ a {
   max-width: 1100px;
   margin: auto;
   padding: 80px 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* =======================
+   GLOBAL RESPONSIVE
+======================= */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .page {
+    padding: 60px 16px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 480px) {
+  .page {
+    padding: 50px 14px;
+  }
+
+  body {
+    font-size: 14px;
+  }
 }

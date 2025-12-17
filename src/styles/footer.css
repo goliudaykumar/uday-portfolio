@@ -13,3 +13,24 @@
   margin: 0 12px;
   color: #93c5fd;
 }
+
+
+/* ================================
+   TABLET & MOBILE
+================================ */
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 16px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .footer-links a {
+    margin: 0;
+  }
+}

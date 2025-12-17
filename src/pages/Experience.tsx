@@ -13,7 +13,7 @@ const experiences = [
       "Built Golang backend services and RESTful APIs",
       "Implemented JWT-based authentication and role-based access control",
       "Deployed applications using Docker, Kubernetes, and AWS",
-      "Worked on BSNL BIVS, BSNL POS Onboarding, BSNL CSC Portal, and AIGS Hostel Management System",
+      "Worked on BIVS, POS Onboarding, CSC Portal, and AIGS Hostel Management System",
     ],
   },
   {
