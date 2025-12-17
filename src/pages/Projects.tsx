@@ -14,10 +14,10 @@ export default function Projects() {
         {/* BIVS */}
         <div className="project-card highlight">
           <h3>BIVS – Biometric Identity Verification System</h3>
-          <p className="project-role">Full Stack Developer</p>
+          <p className="project-role">UI Designer & Full Stack Developer</p>
 
           <p className="project-desc">
-            Developed a secure biometric-based identity verification system used
+            Designed and developed a secure biometric-based identity verification system used
             for validating customer identities through biometric data and
             backend verification workflows.
           </p>
@@ -30,7 +30,7 @@ export default function Projects() {
         {/* POS Onboarding */}
         <div className="project-card highlight">
           <h3>POS Onboarding System</h3>
-          <p className="project-role">Full Stack Developer</p>
+          <p className="project-role">UI Designer & Full Stack Developer</p>
 
           <p className="project-desc">
             Built a telecom onboarding platform for capturing DKYC and EKYC
@@ -46,10 +46,10 @@ export default function Projects() {
         {/* CSC Portal */}
         <div className="project-card highlight">
           <h3>CSC Portal – Verification Officer Dashboard</h3>
-          <p className="project-role">Full Stack Developer</p>
+          <p className="project-role">UI Designer & Full Stack Developer</p>
 
           <p className="project-desc">
-            Developed a role-based CSC portal where verification officers review,
+            Designed and developed a role-based CSC portal where verification officers review,
             validate, accept, or reject DKYC and EKYC submissions with detailed
             form validation and audit tracking.
           </p>
@@ -62,10 +62,10 @@ export default function Projects() {
         {/* IONLEDGER */}
         <div className="project-card highlight">
           <h3>IONLEDGER Platform – Battery Passport System</h3>
-          <p className="project-role">Full Stack Developer</p>
+          <p className="project-role">UI Designer & Full Stack Developer</p>
 
           <p className="project-desc">
-            Developed a battery passport platform for EV batteries, displaying
+            Designed and developed a battery passport platform for EV batteries, displaying
             complete static and dynamic battery data using a unique Battery
             Passport ID, enabling traceability and lifecycle monitoring.
           </p>
